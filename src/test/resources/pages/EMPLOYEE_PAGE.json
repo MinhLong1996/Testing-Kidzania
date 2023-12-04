@@ -1,0 +1,174 @@
+{
+  "name": "EMPLOYEE_PAGE",
+  "detectors": {
+    "web": "EMPLOYEE_PAGE_FILTER_CRITERIA_FORM"
+  },
+  "EMPLOYEE_PAGE_TITLE_LBL": {
+    "web": {
+      "selector": "//span[normalize-space(text())='従業員']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_CREATE_BTN": {
+    "web": {
+      "selector": "//a[text()='+ 追加']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_CONFIRM_DELETE_BTN": {
+    "web": {
+      "selector": "//div[text()='従業員を削除します']//parent::div//parent::div//child::a",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_CONFIRM_DELETE_ALL_BTN": {
+    "web": {
+      "selector": "//button[@class='btn-modal btn btn-danger js-custom-submit ']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_DELETED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='削除しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_UPLOADED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='CSVインポートに成功しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_CREATED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='保存しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_CRITERIA_FORM": {
+    "web": {
+      "selector": "//form[contains(@class,'form-search')]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_UPLOAD_INPUT": {
+    "web": {
+      "selector": "//input[@type='file' and @id='file']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_UPLOAD_BTN": {
+    "web": {
+      "selector": "//button[text()='インポート']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_IMPORT_HEADER_LBL": {
+    "web": {
+      "selector": "//span[text()='従業員のインポート・連携']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_IMPORT_BTN": {
+    "web": {
+      "selector": "//a[text()='インポート・連携']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_CHECK_ALL_CKB": {
+    "web": {
+      "selector": "//input[@id='employees_all_checkbox']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_DELETE_ALL_BTN": {
+    "web": {
+      "selector": "//button[@class='btn btn-auto btn-danger ml-2']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_NAME_OR_EMPL_NUMB_TXT": {
+    "web": {
+      "selector": "//label[text()='氏名（従業員番号）']//following::input[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_OFFICE_DROPDOWN_BTN": {
+    "web": {
+      "selector": "(//label[text()='事業所']//following::div[text()='選択してください'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_OFFICE_DROPDOWN_DDL": {
+    "web": {
+      "selector": "(//ul[contains(@class,'dropdown-menu')])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_EMAIL_TXT": {
+    "web": {
+      "selector": "//label[text()='メールアドレス']//following::input[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_AUTHORITY_DROPDOWN_BTN": {
+    "web": {
+      "selector": "(//label[text()='権限']//following::div[text()='選択してください'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_AUTHORITY_DROPDOWN_DDL": {
+    "web": {
+      "selector": "(//ul[contains(@class,'dropdown-menu')])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_ENROLLMENT_STATUS_DROPDOWN_BTN": {
+    "web": {
+      "selector": "(//label[text()='在籍状況']//following::div[@class='filter-option-inner'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_ENROLLMENT_STATUS_DROPDOWN_DDL": {
+    "web": {
+      "selector": "(//ul[contains(@class,'dropdown-menu')])[3]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_HIRE_DATE_TXT": {
+    "web": {
+      "selector": "//label[text()='入社日']//following::input[2]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_RETIREMENT_DATE_TXT": {
+    "web": {
+      "selector": "//label[text()='退職日']//following::input[2]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_ALIGNMENT_DROPDOWN_BTN": {
+    "web": {
+      "selector": "//label[text()='連携']//following::button[@data-toggle='dropdown']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BY_ALIGNMENT_DROPDOWN_DDL": {
+    "web": {
+      "selector": "(//ul[contains(@class,'dropdown-menu')])[4]",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_FILTER_BTN": {
+    "web": {
+      "selector": "//button[text()='検索']",
+      "strategy": "xpath"
+    }
+  },
+  "EMPLOYEE_PAGE_RESET_BTN": {
+    "web": {
+      "selector": "//a[text()='クリア']",
+      "strategy": "xpath"
+    }
+  }
+}

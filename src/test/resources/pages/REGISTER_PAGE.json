@@ -1,0 +1,141 @@
+{
+  "name": "REGISTER_PAGE",
+  "detectors": {
+    "web": "REGISTER_PAGE_EMAIL_TXT"
+  },
+  "REGISTER_PAGE_EMAIL_TXT": {
+    "web": {
+      "selector": "//input[@formcontrolname='email']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_PASSWORD_TXT": {
+    "web": {
+      "selector": "//input[@formcontrolname='password']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_CONFIRM_PASSWORD_TXT": {
+    "web": {
+      "selector": "//input[@formcontrolname='confirmPassword']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_REGISTER_BTN": {
+    "web": {
+      "selector": "//span[normalize-space(text())='Đăng ký']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_CREATE_BTN": {
+    "web": {
+      "selector": "//a[text()='']",
+      "strategy": "xpath"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "REGISTER_PAGE_CONFIRM_DELETE_BTN": {
+    "web": {
+      "selector": "//div[text()='従業員を削除します']//parent::div//parent::div//child::a",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_CONFIRM_DELETE_ALL_BTN": {
+    "web": {
+      "selector": "//button[@class='btn-modal btn btn-danger js-custom-submit ']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_DELETED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='削除しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_UPLOADED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='CSVインポートに成功しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_CREATED_SUCCESS_MESSAGE_LBL": {
+    "web": {
+      "selector": "//div[@role='alert' and text()='保存しました。']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_FILTER_CRITERIA_FORM": {
+    "web": {
+      "selector": "//form[contains(@class,'form-search')]",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_UPLOAD_INPUT": {
+    "web": {
+      "selector": "//input[@type='file' and @id='file']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_UPLOAD_BTN": {
+    "web": {
+      "selector": "//button[text()='インポート']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_IMPORT_HEADER_LBL": {
+    "web": {
+      "selector": "//span[text()='従業員のインポート・連携']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_IMPORT_BTN": {
+    "web": {
+      "selector": "//a[text()='インポート・連携']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_CHECK_ALL_CKB": {
+    "web": {
+      "selector": "//input[@id='employees_all_checkbox']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_DELETE_ALL_BTN": {
+    "web": {
+      "selector": "//button[@class='btn btn-auto btn-danger ml-2']",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_FILTER_BY_NAME_OR_EMPL_NUMB_TXT": {
+    "web": {
+      "selector": "//label[text()='氏名（従業員番号）']//following::input[1]",
+      "strategy": "xpath"
+    }
+  },
+  "REGISTER_PAGE_FILTER_BY_OFFICE_TXT": {
+    "web": {
+      "selector": "//label[text()='事業所']//following::input[1]",
+      "strategy": "xpath"
+    }
+  }
+}

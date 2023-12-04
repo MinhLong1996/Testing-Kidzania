@@ -1,0 +1,48 @@
+{
+  "name": "AUTHORITY_PAGE",
+  "detectors": {
+    "web": "AUTHORITY_PAGE_FILTER_CRITERIA_FORM"
+  },
+  "AUTHORITY_PAGE_FILTER_CRITERIA_FORM": {
+    "web": {
+      "selector": "//form[contains(@class,'form-search')]",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_FILTER_BY_AUTHORITY_NAME_DROPDOWN_BTN": {
+    "web": {
+      "selector": "(//label[text()='権限名']//following::div[text()='全て'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_FILTER_BY_AUTHORITY_NAME_DROPDOWN_DDL": {
+    "web": {
+      "selector": "(//ul[contains(@class,'dropdown-menu')])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_FILTER_BY_NAME_OR_EMPL_NUMB_TXT": {
+    "web": {
+      "selector": "//label[text()='氏名（従業員番号）']//following::input[1]",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_FILTER_BY_EMAIL_TXT": {
+    "web": {
+      "selector": "//label[text()='メールアドレス']//following::input[1]",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_FILTER_BTN": {
+    "web": {
+      "selector": "//input[@value='検索']",
+      "strategy": "xpath"
+    }
+  },
+  "AUTHORITY_PAGE_RESET_BTN": {
+    "web": {
+      "selector": "//a[text()='クリア']",
+      "strategy": "xpath"
+    }
+  }
+}

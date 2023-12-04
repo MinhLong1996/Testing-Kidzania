@@ -1,0 +1,30 @@
+{
+  "name": "MASTER_PAGE",
+  "detectors": {
+    "web": "MASTER_PAGE_LEFT_MENU"
+  },
+  "MASTER_PAGE_LEFT_MENU": {
+    "web": {
+      "selector": "//div[contains(@id,'sidebar')]",
+      "strategy": "xpath"
+    }
+  },
+  "MASTER_PAGE_ERROR_PAGE_LABEL": {
+    "web": {
+      "selector": "//h3[text()='404' or text()='500']",
+      "strategy": "xpath"
+    }
+  },
+  "MASTER_PAGE_500_ERROR_LABEL": {
+    "web": {
+      "selector": "//h3[text()='500']",
+      "strategy": "xpath"
+    }
+  },
+  "MASTER_PAGE_LOADING_SPINNER_LABEL": {
+    "web": {
+      "selector": "//div[@class='block-loading text-center mt-5']//child::i[contains(@class,'spin-icon')]",
+      "strategy": "xpath"
+    }
+  }
+}

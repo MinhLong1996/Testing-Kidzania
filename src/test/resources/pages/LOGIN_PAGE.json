@@ -1,0 +1,534 @@
+{
+  "name": "LOGIN_PAGE",
+  "detectors": {
+    "web": "LOGIN_PAGE_EMAIL_TXT"
+  },
+  "LOGIN_PAGE_GENERAL_LOGIN": {
+    "web": {
+      "selector": "//p[text()='General Ticket']//parent::div",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_LOGIN_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Login']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_SIGNUP_BTN": {
+    "web": {
+      "selector": "//a[normalize-space()='Sign up']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_AGREE_ALL_CHECKBOX": {
+    "web": {
+      "selector": "//span[normalize-space()='Agree all']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_AGREE_ALL_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='NEXT']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_PHONE_NUMBER_INPUT": {
+    "web": {
+      "selector": "//input[@id='phone']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_PASSWORD_LOGIN_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Please enter your password!']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_LOGIN_PAGE_REMEMBER_ID_CHECKBOX": {
+    "web": {
+      "selector": "//span[text()='Remember ID']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_APPLY_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Apply']",
+      "strategy": "xpath"
+    }
+  },
+
+  "LOGIN_PAGE_CODE_INPUT": {
+    "web": {
+      "selector": "//input[@id='code']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_TO_INFO_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='NEXT']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_PASSWORD_INPUT": {
+    "web": {
+      "selector": "//input[@id='password']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CONFIRM_PASSWORD_INPUT": {
+    "web": {
+      "selector": "//input[@id='confirmPassword']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NAME_INPUT": {
+    "web": {
+      "selector": "//input[@id='name']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_EMAIL_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Please input email']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_DUPLICATE_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Duplicate']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_DUPLICATE_BACK_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Back']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_ADDRESS_INPUT": {
+    "web": {
+      "selector": "//input[@id='address']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_SELECT_CHECKBOX": {
+    "web": {
+      "selector": "//span[normalize-space()='Select All']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_INFO_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='NEXT']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_LOGIN_PAGE_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Login']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CREATE_GENERAL_TICKET_BTN": {
+    "web": {
+      "selector": "(//div[@class='TicketType_ticketType_box_content__PY4DY'])[1]",
+      "strategy": "xpath"
+    }
+  },
+
+  "LOGIN_PAGE_CHOICE_CALENDAR_BTN": {
+    "web": {
+      "selector": "(//abbr[@aria-label='October 21, 2023'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_PART1_BTN": {
+    "web": {
+      "selector": "//h3[normalize-space()='Part 1']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_PART2_BTN": {
+    "web": {
+      "selector": "//h3[normalize-space()='Part 2']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_STEP3_BTN": {
+    "web": {
+      "selector": "(//span[contains(text(),'NEXT')])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_BTN": {
+    "web": {
+      "selector": "(//span[@class='anticon anticon-plus'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_NAME_INPUT": {
+    "web": {
+      "selector": "(//input[@placeholder='Please input name'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_BIRTH_DATE_BTN": {
+    "web": {
+      "selector": "(//input[@placeholder='Please input birthday'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_YEAR_BTN": {
+    "web": {
+      "selector": "//button[normalize-space()='2023']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_YEAR_2022_BTN": {
+    "web": {
+      "selector": "(//div[normalize-space()='2022'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_BABY_DAY_BTN": {
+    "web": {
+      "selector": "//div[normalize-space()='28']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_SAVE_INFORMATION_BABY_BTN": {
+    "web": {
+      "selector": "(//input[@type='checkbox'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER": {
+    "web": {
+      "selector": "(//span[@class='anticon anticon-plus'])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER_NAME_INPUT": {
+    "web": {
+      "selector": "(//input[@placeholder='Please input name'])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER_BIRTH_DATE_BTN": {
+    "web": {
+      "selector": "(//input[@placeholder='Please input birthday'])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER_YEAR_BTN": {
+    "web": {
+      "selector": "//button[normalize-space()='2020']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER_YEAR_2020_BTN": {
+    "web": {
+      "selector": "(//div[normalize-space()='2020'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_TODDLER_DAY_BTN": {
+    "web": {
+      "selector": "(//div[@class='ant-picker-cell-inner'][normalize-space()='1'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_SAVE_INFORMATION_TODDLER_BTN": {
+    "web": {
+      "selector": "(//input[@type='checkbox'])[2]",
+      "strategy": "xpath"
+    }
+  },
+
+  "LOGIN_PAGE_CHOICE_ADULT_BTN": {
+    "web": {
+      "selector": "(//span[@class='anticon anticon-plus'])[4]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_RESERVED_PERSON_CHECKBOX": {
+    "web": {
+      "selector": "//span[text()='Same as Reserved Person']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_ADULT_BIRTH_DATE_INPUT": {
+    "web": {
+      "selector": "(//input[@placeholder='Please input birthday'])[3]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_ADULT_YEAR_BTN": {
+    "web": {
+      "selector": "(//button[normalize-space()='2006'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_ADULT_YEAR_1999_BTN": {
+    "web": {
+      "selector": "(//div[normalize-space()='1999'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_ADULT_DAY_BTN": {
+    "web": {
+      "selector": "//td[@title='2006-06-25']//div[@class='ant-picker-cell-inner'][normalize-space()='25']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_STEP_SHOW_POPUP_BTN": {
+    "web": {
+      "selector": "(//span[contains(text(),'NEXT')])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_COUPON_BTN": {
+    "web": {
+      "selector": "(//span[normalize-space()='Coupon'])[1]",
+      "strategy": "xpath"
+    }
+  },
+"LOGIN_PAGE_COUPON_INPUT": {
+"web": {
+"selector": "(//input[@id='coupon'])[1]",
+"strategy": "xpath"
+}
+},
+  "LOGIN_PAGE_APPLY1_BTN": {
+    "web": {
+      "selector": "(//button[@id='btn'])[1]",
+      "strategy": "xpath"
+    }
+  },
+
+  "LOGIN_PAGE_TURN_OFF_POPUP_BTN": {
+    "web": {
+      "selector": "//button[@class='ant-btn ant-btn-default main-btn TicketInfo_ticketInfo_modal_form_btn__OoZeK']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NEXT_STEP4_BTN": {
+    "web": {
+      "selector": "(//span[contains(text(),'NEXT')])[2]",
+      "strategy": "xpath"
+    }
+  },
+"LOGIN_PAGE_ADD_COUPON": {
+    "web": {
+      "selector": "(//p[contains(text(),'Thứ 5 cuối cùng của tháng 7')])[1]",
+      "strategy": "xpath"
+    }
+},
+  "LOGIN_PAGE_DOWNLOAD_COUPON": {
+    "web": {
+      "selector": "//span[normalize-space()='Download Coupon']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_IMPORT_BTN": {
+    "web": {
+      "selector": "(//span[normalize-space()='IMPORT SAVED CHILDS'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_APPLY_VOUCHER": {
+    "web": {
+      "selector": "//span[normalize-space()='Apply']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_ADD_VOUCHER": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_ATM": {
+    "web": {
+      "selector": "//p[text()='Local ATM Cards']",
+      "strategy": "xpath"
+    }
+  },
+
+  "LOGIN_PAGE_PURCHASE_BTN": {
+    "web": {
+      "selector": "(//span[normalize-space()='PURCHASE'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_NCB_BANK_BTN": {
+    "web": {
+      "selector": "//div[@class='list-bank-item-inner' and contains(@style,'background-image: url(/paymentv2/images/img/logos/bank/big/ncb.svg)')]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CARD_NUMBER_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Enter card number']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CARD_HOLDER_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Enter card holder']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_ISSUING_DATE_INPUT": {
+  "web": {
+    "selector": "//input[@name='cardDate']",
+    "strategy": "xpath"
+  }
+},
+  "LOGIN_PAGE_CONTINUE_BTN": {
+    "web": {
+      "selector": "//span[text()='Continue']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_OTP_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Enter OTP']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CONFIRM_BTN": {
+    "web": {
+      "selector": "//span[text()='Confirm']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_GO_HISTORY_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Go Back']",
+      "strategy": "xpath"
+
+    }
+  },
+  "LOGIN_PAGE_GO_TO_HISTORY_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Go to History']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_GO_TO_HISTORY_DETAIL_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Click to details']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CANCEL_PAYMENT_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Cancel Payment']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_GO_TO_MAIN_PAGE": {
+    "web": {
+      "selector": "//a[normalize-space()='Go to Mainpage']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CREATE_NEW_GROUP": {
+    "web": {
+      "selector": "(//p[normalize-space()='Group'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_GROUPNAME_INPUT": {
+    "web": {
+      "selector": "//input[@id='groupName']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_NAME_USER_GROUP_INPUT": {
+    "web": {
+      "selector": "//input[@id='name']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_PHONE_NUMBER_GROUP_INPUT": {
+    "web": {
+      "selector": "//input[@placeholder='Please input phone number']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_DATE_VISIT_INPUT": {
+    "web": {
+      "selector": "//input[@id='date']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_MONTH08_BTN": {
+    "web": {
+      "selector": "(//button[@class='ant-picker-header-next-btn'])[1]",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CHOICE_DAY_BTN": {
+    "web": {
+      "selector": "//div[normalize-space()='15']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_EMAIL_GROUP_BTN": {
+    "web": {
+      "selector": "//input[@id='email']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_DISCRIPTION_INPUT": {
+    "web": {
+      "selector": "//textarea[@id='description']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_CONFIRM_GROUP_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Confirm']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_GO_BACK_MAINPAGE_BTN": {
+    "web": {
+      "selector": "//span[normalize-space()='Go to Mainpage']",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  },
+  "LOGIN_PAGE_": {
+    "web": {
+      "selector": "",
+      "strategy": "xpath"
+    }
+  }
+}

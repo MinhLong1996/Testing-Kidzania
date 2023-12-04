@@ -1,0 +1,48 @@
+{
+  "name": "IC_HOME_PAGE",
+  "detectors": {
+    "web": "IC_HOME_PAGE_SELECT_2_IMAGES_BUTTON"
+  },
+  "IC_HOME_PAGE_SELECT_2_IMAGES_BUTTON": {
+    "web": {
+      "selector": "image_select_btn",
+      "strategy": "id"
+    }
+  },
+  "IC_HOME_PAGE_COMPARE_BUTTON": {
+    "web": {
+      "selector": "compare",
+      "strategy": "id"
+    }
+  },
+  "IC_HOME_PAGE_VISUALISATION_BUTTON": {
+    "web": {
+      "selector": "(//span[@class='mdc-select__dropdown-icon'])[2]",
+      "strategy": "xpath"
+    }
+  },
+  "IC_HOME_PAGE_VISUALISATION_DROPDOWN": {
+    "web": {
+      "selector": "//ul[@aria-label='Visualisation picker listbox']",
+      "strategy": "xpath"
+    }
+  },
+  "IC_HOME_PAGE_DOWNLOAD_BUTTON": {
+    "web": {
+      "selector": "//span[@class='mdc-button__label' and text()='Download']",
+      "strategy": "xpath"
+    }
+  },
+  "IC_HOME_PAGE_SOURCE_IMAGE_INPUT": {
+    "web": {
+      "selector": "image_select_input",
+      "strategy": "id"
+    }
+  },
+  "IC_HOME_PAGE_TARGET_IMAGE_INPUT": {
+    "web": {
+      "selector": "image_select_input2",
+      "strategy": "id"
+    }
+  }
+}
